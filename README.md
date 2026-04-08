@@ -383,7 +383,7 @@
   <h1>Implementing <em>Good</em> IT Governance</h1>
   <p class="hero-sub">A visual guide to the key actions, roles, processes and standards that make IT governance work in real organisations.</p>
   <div class="hero-meta">
-    <span>Author: Ángel Alberto Varón Quimbayo</span>
+    <span>Author: Daniel Hernando Gil Romero</span>
     <span>·</span>
     <span>Fundación Universitaria del Área Andina</span>
   </div>
