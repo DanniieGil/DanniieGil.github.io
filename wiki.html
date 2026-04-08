@@ -73,6 +73,16 @@
       font-size: 1.8rem;
     }
 
+    /* Estilos de Imagen */
+    .section-image {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin: 20px 0;
+      border: 1px solid #334155;
+    }
+
     /* Tarjetas Mejoradas */
     .grid {
       display: grid;
@@ -153,16 +163,34 @@
       flex-shrink: 0;
     }
 
+    /* Footer Estilizado */
     footer {
       text-align: center;
       padding: 60px 0;
       color: var(--text-muted);
       font-size: 0.9rem;
+      border-top: 1px solid #334155;
+      margin-top: 80px;
+    }
+
+    .signature {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .institution-logo {
+      width: 150px; /* Ajustar según tamaño deseado */
+      opacity: 0.8;
+      filter: grayscale(1) invert(1); /* Convierte logo a blanco si tiene color */
     }
 
     /* Responsive */
     @media (max-width: 768px) {
       h1 { font-size: 2.2rem; }
+      .section-image { height: 180px; }
     }
   </style>
 </head>
@@ -186,6 +214,8 @@
     </p>
   </header>
 
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop" alt="Tecnología abstracta" class="section-image">
+
   <h2><i class="fas fa-sync-alt"></i> Ciclo de Mejora Continua</h2>
   <div class="card">
     <p>El SGSTI opera bajo la metodología <strong>PDCA (Plan-Do-Check-Act)</strong>, asegurando que los servicios nunca queden obsoletos:</p>
@@ -202,6 +232,9 @@
   </div>
 
   <h2><i class="fas fa-layer-group"></i> Dominios del SGSTI</h2>
+  
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop" alt="Gráficos de datos" class="section-image">
+
   <div class="grid">
     <div class="card">
       <h3><i class="fas fa-user-tie"></i> Provisión</h3>
@@ -264,6 +297,9 @@
   </div>
 
   <h2><i class="fas fa-rocket"></i> Hoja de Ruta de Implementación</h2>
+  
+  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop" alt="Trabajo en equipo en IT" class="section-image">
+
   <ul class="step-list">
     <li><div class="step-number">1</div> <strong>Diagnóstico:</strong> Evaluación del estado actual (Gap Analysis).</li>
     <li><div class="step-number">2</div> <strong>Definición de Alcance:</strong> ¿Qué servicios se van a gestionar?</li>
@@ -292,7 +328,10 @@
   </div>
 
   <footer>
-    <p>Wiki SGSTI Académica • Actualizado 2024 • 🚀</p>
+    <div class="signature">
+      <p>Creado por: <strong>Daniel Gil</strong></p>
+      <p style="font-size: 0.85rem; color: var(--primary);">Fundación Universitaria del Área Andina</p>
+    </div>
   </footer>
 
 </div>
